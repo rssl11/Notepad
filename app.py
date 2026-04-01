@@ -24,7 +24,8 @@ def create_app():
 
     return app
 
+# GLOBAL VARIABLE PARA KAY GUNICORN (Mahalaga: Walang space/tab sa unahan nito)
+app = create_app()
 
 if __name__ == "__main__":
-    app = create_app()
     app.run(debug=True)
