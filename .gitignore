@@ -1,0 +1,9 @@
+# Python cache files (you definitely want to ignore this folder)
+__pycache__/
+
+# VS Code temp files (like the one at the bottom of your list)
+tempCodeRunnerFile.py
+
+# Optional: Ignore your local database files if you don't want test data public
+data/notes.json
+data/users.json
